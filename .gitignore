@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# ignore the .cursor file
+.cursor/*
+
+# Database files
+app/data/food_diary.db
+
+# ignore scratchpad files
+scratch.ipynb
+
+# .env
+*.env*
+
+# .cursor
+.cursor/*
